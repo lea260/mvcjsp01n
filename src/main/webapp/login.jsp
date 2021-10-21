@@ -9,7 +9,7 @@
 <body>
 	Resultado login:
 	<%
-boolean res = (boolean) request.getAttribute("res");
+boolean res = (boolean) request.getAttribute("resultado");
 if (res) {
 %>
 	<p>login exitoso</p>
